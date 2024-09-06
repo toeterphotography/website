@@ -1,0 +1,160 @@
+:root{
+    --primary: #80331D;
+    --secondary: #DD9C8A;
+    
+    --background: #424346;
+    
+}
+
+@font-face {
+  font-family: 'Amatic SC';
+  src: url('fonts/AmaticSC-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Reey';
+  src: url('fonts/Reey-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Century Gothic';
+  src: url('fonts/centurygothic.ttf');
+}
+
+@font-face {
+  font-family: 'Vidaloka';
+  src: url('fonts/Vidaloka-Regular.ttf');
+}
+
+
+html {
+    color: #ffffff;
+    font-family: 'Century Gothic';
+}
+
+body{
+    background-color: var(--background);
+}
+
+.amatic{
+    font-family: 'Amatic SC';
+}
+
+.reey{
+    font-family: 'Reey';
+}
+
+.gothic{
+    font-family: 'Century Gothic';
+    font-weight: 400;
+}
+
+.vidaloka{
+    font-family: 'Vidaloka';
+}
+
+.bg--secondary{
+    background-color: var(--secondary);
+}
+
+.font--dark{
+    color: #000000;
+}
+
+.font--light{
+    color: #ffffff;
+}
+
+.font--secondary{
+    color: var(--secondary);
+}
+
+
+.title {
+    color: var(--primary);
+    font-family: 'Amatic SC';
+}
+
+
+
+
+
+
+
+
+
+/*TOETER*/
+
+.toeter-nav{
+    font-family: 'Amatic SC';
+    font-size: 1.9em;
+    color: #ffffff;
+}
+
+.toeter-nav-active{
+    color: var(--secondary);
+}
+
+.toeter-nav:hover{
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+.footer-nav{
+    font-family: 'Amatic SC';
+    font-size: 1.4em;
+    color: #ffffff;
+}
+
+
+.flyer-heading-1{
+    font-size: 2.2em;
+    line-height: 2.5;
+}
+
+.flyer-heading-2{
+    font-size: 2.8em;
+    line-height: 1;
+}
+
+
+.flyer-heading-3{
+    font-size: 4.3em;
+    line-height: .5em;
+}
+
+
+.portfolio-img{
+    height: 400;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*BOOTSTRAP*/
+
+.btn-secondary{
+    background-color: var(--secondary);
+    color: #000;
+    font-family: 'Amatic SC';
+    font-size: 1.5em;
+    min-width: 200px;
+}
+
+
+
+.border-bottom{
+    border-bottom-color: var(--secondary) !important;
+}
+
+.border-right{
+    border-right-color: var(--secondary) !important;
+}
